@@ -1,0 +1,61 @@
+@keyframes headerCardMove {
+  from {
+    transform: translateX(100rem) rotate(360deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes skillProgress-1 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes skillProgress-2 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes skillProgress-3 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes skillProgress-4 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes skillProgress-5 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
